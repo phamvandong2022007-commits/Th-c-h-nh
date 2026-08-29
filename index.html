@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Khảo sát đăng ký tài khoản</title>
+</head>
+
+<body>
+
+<form>
+
+    <table border="1" width="800">
+
+        <tr>
+            <th colspan="2" height="70" bgcolor="skyblue">
+                <font size="6">Khảo sát đăng ký tài khoản thành viên</font>
+            </th>
+        </tr>
+
+        <tr>
+            <td colspan="2" bgcolor="lightblue">
+
+                <fieldset>
+                    <legend>Thông tin cá nhân</legend>
+
+                    <p>
+                        <label for="hoten">Họ tên:</label>
+                        <input type="text" id="hoten">
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email">
+                    </p>
+
+                    <p>
+                        <label for="sdt">Số điện thoại:</label>
+                        <input type="tel" id="sdt">
+                    </p>
+
+                    <p>
+                        <label for="ngaysinh">Ngày sinh:</label>
+                        <input type="date" id="ngaysinh">
+                    </p>
+
+                    <p>
+                        <label for="matkhau">Mật khẩu:</label>
+                        <input type="password" id="matkhau">
+                    </p>
+
+                </fieldset>
+
+                <br>
+
+                <fieldset>
+                    <legend>Tùy chọn tài khoản</legend>
+
+                    <p>
+                        <label for="goi">Chọn gói thành viên:</label>
+
+                        <select id="goi">
+                            <option>Miễn phí</option>
+                            <option>Cơ bản</option>
+                            <option>Cao cấp</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="anh">Tải ảnh đại diện:</label>
+                        <input type="file" id="anh">
+                    </p>
+
+                </fieldset>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center" bgcolor="skyblue">
+
+                <input type="submit" value="Đăng ký">
+                <input type="reset" value="Nhập lại">
+
+            </td>
+        </tr>
+
+    </table>
+
+</form>
+
+</body>
+</html>
